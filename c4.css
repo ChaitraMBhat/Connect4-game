@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 25px;
+}
+
+mark{
+    color: white;
+    background-color: black;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: palevioletred;
+    border: 10px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.purple-piece{
+    background-color: purple;
+}
+
+.blue-piece{
+    background-color: aqua;
+}
+
+
